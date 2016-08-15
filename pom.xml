@@ -118,9 +118,9 @@
                 <version>1.0-m5.1</version>
                 <configuration>
                     <noDeploy>true</noDeploy>
-                    <pushFeatures>true</pushFeatures>
+                    <pushFeatures>false</pushFeatures>
                     <pushReleases>false</pushReleases>
-                    <pushHotfixes>true</pushHotfixes>
+                    <pushHotfixes>false</pushHotfixes>
                     <allowUntracked>true</allowUntracked>
                 </configuration>
             </plugin>
