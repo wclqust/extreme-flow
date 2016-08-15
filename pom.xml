@@ -115,12 +115,12 @@
                 <groupId>external.atlassian.jgitflow</groupId>
                 <artifactId>jgitflow-maven-plugin</artifactId>
                 <!-- not released yet version>1.0-m6</version -->
-                <version>1.0-m5.1</version>
+                <version>1.0-m3</version>
                 <configuration>
                     <noDeploy>true</noDeploy>
-                    <pushFeatures>false</pushFeatures>
-                    <pushReleases>false</pushReleases>
-                    <pushHotfixes>false</pushHotfixes>
+                    <pushFeatures>true</pushFeatures>
+                    <pushReleases>true</pushReleases>
+                    <pushHotfixes>true</pushHotfixes>
                     <allowUntracked>true</allowUntracked>
                 </configuration>
             </plugin>
