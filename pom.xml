@@ -117,12 +117,13 @@
                 <!-- not released yet version>1.0-m6</version -->
                 <version>1.0-m4</version>
                 <configuration>
-                    <autoVersionSubmodules>true</autoVersionSubmodules>
                     <noDeploy>true</noDeploy>
-                    <pushFeatures>true</pushFeatures>
-                    <pushReleases>true</pushReleases>
-                    <pushHotfixes>true</pushHotfixes>
-                    <allowUntracked>true</allowUntracked>
+
+                   <useReleaseProfile>false</useReleaseProfile>
+
+                   <pushReleases>false</pushReleases>
+
+                   <keepBranch>false</keepBranch>
                 </configuration>
             </plugin>
         </plugins>
